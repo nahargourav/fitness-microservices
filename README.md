@@ -1,3 +1,6 @@
+![Architecture Diagram](architecture.png)
+
+
 # 🏋️ Fitness Microservices Platform
 
 > A production-grade, AI-powered fitness tracking backend built with a full Spring Cloud microservices architecture. Users log workouts; the system validates identity through Keycloak, persists activity data, streams it asynchronously via Apache Kafka, and delivers personalized AI-generated coaching insights powered by Google Gemini / OpenAI — all behind a reactive API Gateway secured with OAuth2 JWT.
